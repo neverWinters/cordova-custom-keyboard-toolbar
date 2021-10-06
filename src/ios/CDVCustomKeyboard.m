@@ -289,7 +289,7 @@
     }
 }
 
-- (void)textViewDidBeginEditing:(UITextView *)textView
+-(void)textViewDidBeginEditing:(UITextView *)textView
 {
     self.hiddenTextView = textView;
 }
