@@ -3,8 +3,8 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="ru.appsm.customkeyboard"
-    version="0.1.2">
+    id="cordova-custom-keyboard"
+    version="1.0.3">
     <name>CustomKeyboard</name>
     <description>Cordova Custom Keyboard Plugin For Ios</description>
     <license>Apache 2.0</license>
@@ -28,6 +28,8 @@
 
         <header-file src="src/ios/CDVCustomKeyboard.h" />
         <source-file src="src/ios/CDVCustomKeyboard.m" />
+        <resource-file src="src/ios/Resources/UITextFieldClearButtonPressed.png" />
+        <resource-file src="src/ios/Resources/UITextFieldClearButton.png" />
     </platform>
 
 </plugin>
